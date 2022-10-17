@@ -19,7 +19,8 @@ assets:
   - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
   method: copy
   source:
-  - name: remastered/obj/W_EX010_Y0.mdlx/-0.dds
+  - name: remastered/obj/F_TT580.mdlx/-0.dds
+    type: internal
 - name: itempic/item-043.imd #Replacing KK's itempic with that of a stick
   method: imd
   source:
