@@ -3,27 +3,39 @@ originalAuthor: Kayya
 game: kh2
 description: stick
 assets:
-- name: obj\W_EX010.mdlx #Replacing KK's models with the stick
+- name: obj/W_EX010.mdlx #Replacing KK's models with the stick
+  multi:
+  - name: obj/W_EX010_WI.mdlx
+  - name: obj/W_EX010_TR.mdlx
+  - name: obj/W_EX010_NM.mdlx
   method: copy
   source:
-  - name: obj\W_EX010_Y0.mdlx
-- name: obj\W_EX010_WI.mdlx
+  - name: obj/W_EX010_Y0.mdlx
+- name: remastered/obj/W_EX010.mdlx/-0.dds #Replacing remastered texture
+  platform: pc
+  multi:
+  - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
   method: copy
   source:
-  - name: obj\W_EX010_Y0.mdlx
-- name: obj\W_EX010_TR.mdlx
-  method: copy
-  source:
-  - name: obj\W_EX010_Y0.mdlx
-- name: obj\W_EX010_NM.mdlx
-  method: copy
-  source:
-  - name: obj\W_EX010_Y0.mdlx
+  - name: remastered/obj/W_EX010_Y0.mdlx/-0.dds
 - name: itempic/item-043.imd #Replacing KK's itempic with that of a stick
   method: imd
   source:
   - name: itempic/Stick.png 
+- name: remastered/itempic/item-043.imd/-0.dds #Replacing remastered itempic
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/itempic/item-043.imd/-0.dds
 - name: msg/jp/sys.bar #Modifies KK's text to describe what a stick is
+  multi:
+  - name: msg/us/sys.bar
+  - name: msg/fr/sys.bar
+  - name: msg/gr/sys.bar
+  - name: msg/it/sys.bar
+  - name: msg/sp/sys.bar
   method: binarc
   source:
   - name: sys
