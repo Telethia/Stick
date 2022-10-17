@@ -12,6 +12,7 @@ assets:
   source:
   - name: obj/W_EX010_Y0.mdlx
 - name: remastered/obj/W_EX010.mdlx/-0.dds #Replacing remastered texture
+  platform: pc
   multi:
   - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
   - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
@@ -24,6 +25,7 @@ assets:
   source:
   - name: itempic/Stick.png 
 - name: remastered/itempic/item-043.imd/-0.dds #Replacing remastered itempic
+  platform: pc
   method: copy
   source:
   - name: remastered/itempic/item-043.imd/-0.dds
